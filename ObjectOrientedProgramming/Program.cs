@@ -8,7 +8,7 @@ namespace ObjectOrientedProgramming
         {
             Console.WriteLine("Welcome To Object Oriented Programming");
             Console.WriteLine("Please Enter any below option");
-            Console.WriteLine("1.ObjectAndClass\n2.Encapsulation");
+            Console.WriteLine("1.ObjectAndClass\n2.Encapsulation\n3.Inheritance");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -18,6 +18,10 @@ namespace ObjectOrientedProgramming
                 case 2:
                     Encapsulation.EncapsulationMethod();
                     break;
+                case 3:
+                    Inheritance.InheritanceMethod();
+                    break;
+
 
             }
 
