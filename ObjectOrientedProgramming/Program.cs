@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Emit;
 
 namespace ObjectOrientedProgramming
 {
@@ -8,7 +9,7 @@ namespace ObjectOrientedProgramming
         {
             Console.WriteLine("Welcome To Object Oriented Programming");
             Console.WriteLine("Please Enter any below option");
-            Console.WriteLine("1.ObjectAndClass\n2.Encapsulation\n3.Inheritance\n4.Polymorhism\n5.Abstraction");
+            Console.WriteLine("1.ObjectAndClass\n2.Encapsulation\n3.Inheritance\n4.Polymorhism\n5.Abstraction\n6.Constructor");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -27,6 +28,13 @@ namespace ObjectOrientedProgramming
                 case 5:
                     Abstract.AbstractMethod();
                     break;
+                case 6:
+                    Constructor.ConstructorMethod();
+                    break;
+                default:
+                    Console.WriteLine("Enter Options Given bellow");
+                    break;
+           
 
 
 
